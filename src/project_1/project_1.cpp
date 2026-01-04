@@ -167,7 +167,7 @@ void deletebook() {
 
     while (read >> b.id >> b.name >> b.quantity) {
         if (b.id == searchID) {
-            found = true;   // skip writing
+            found = true;   
         } else {
             write << b.id << " " << b.name << " " << b.quantity << endl;
         }
@@ -324,5 +324,6 @@ int main() {
     return 0;
 
 }
+
 
 

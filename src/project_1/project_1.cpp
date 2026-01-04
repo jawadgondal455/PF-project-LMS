@@ -11,7 +11,7 @@ struct Book {
     string name;
     int quantity;
 };
-
+//-------signup-------
 void signUp() {
     string username, password;
     bool found = false;
@@ -48,7 +48,7 @@ void signUp() {
         cout << "Sign Up Successful\n";
     }
 }
-
+//--------signin-------
 bool signIn() {
     string username, password;
 
@@ -321,4 +321,5 @@ int main() {
     } while (!exitProgram);
 
     return 0;
+
 }

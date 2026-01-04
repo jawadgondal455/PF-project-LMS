@@ -251,7 +251,7 @@ void returnbook() {
     rename("temp.txt", "books.txt");
 
     if (!found)
-        cout << "Book Not Found!\n";
+        cout << "Book Not Found or invalid bookid !\n";
 }
 
 // ------- LIBRARY MENU -------
@@ -324,6 +324,7 @@ int main() {
     return 0;
 
 }
+
 
 
 

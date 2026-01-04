@@ -8,8 +8,8 @@ A console-based C++ project to manage library operations including user authenti
 
 | Name         | Roll No         |
 |--------------|----------------|
-| Jawad Amir   | 25021519‑105   |
-| Sheraz Amir  | 25021519‑223   |
+| Muhammad Jawad Amir   | 25021519‑105   |
+| Muhammad Sheraz Amir  | 25021519‑223   |
 
 ---
 

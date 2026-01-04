@@ -45,7 +45,7 @@ void signUp() {
         ofstream write("users.txt", ios::app);
         write << username << " " << password << endl;
         write.close();
-        cout << "Sign Up Successful\n";
+        cout << "Sign Up Successfully\n";
     }
 }
 //--------signin-------
@@ -324,6 +324,7 @@ int main() {
     return 0;
 
 }
+
 
 
 

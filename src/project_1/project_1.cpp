@@ -112,6 +112,8 @@ void viewbooks() {
         cout << b.id << "\t" << b.name << "\t\t" << b.quantity << endl;
     }
     read.close();
+    cout << "Book viewed successfully\n";
+    
 }
 
 // ------- UPDATE bOOK -------
@@ -324,6 +326,7 @@ int main() {
     return 0;
 
 }
+
 
 
 

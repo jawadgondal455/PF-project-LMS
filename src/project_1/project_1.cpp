@@ -295,7 +295,7 @@ int main() {
     bool exitProgram = false;
 
     do {
-        cout << "\n=== LIBRARY MANAGEMENT SYSTEM ===\n";
+        cout << "\n-------LIBRARY MANAGEMENT SYSTEM ------\n";
         cout << "1. Sign Up\n";
         cout << "2. Sign In\n";
         cout << "3. Exit\n";
@@ -323,3 +323,4 @@ int main() {
     return 0;
 
 }
+

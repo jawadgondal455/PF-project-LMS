@@ -40,7 +40,7 @@ void signUp() {
     read.close();
 
     if (found==true) {
-        cout << "User already exists!\n";
+        cout << "User already exists!\n Try another username\n";
     } else {
         ofstream write("users.txt", ios::app);
         write << username << " " << password << endl;
@@ -324,6 +324,7 @@ int main() {
     return 0;
 
 }
+
 
 
 
